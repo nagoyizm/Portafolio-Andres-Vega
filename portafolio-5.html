@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Detalle Pagina Burger King</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/stackoverflow-light.min.css" rel="stylesheet">
+
+  
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+<!--Barra de Navegacion Izquierda-->
+<header id="header" class="header light-background d-flex flex-column border border-round shadow">
+
+  <!--icono de lista que aparece cuando se esconde el aside-->
+      <i class="header-toggle d-xl-none bi bi-list"></i>
+
+  <div class="profile-img">
+    <a href="index.html"><img id="imagen-logo" src="assets/img/my-profile-img.jpeg" alt="" class="img-fluid rounded-circle"></a>
+  </div>
+
+  <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+    <h1 class="sitename">Andres Vega</h1>
+  </a>
+
+  <nav id="navmenu" class="navmenu d-flex align-items-center justify-content-center mt-3">
+    <!--iconos del aside-->
+    <ul>
+      <li><a href="#inicio" class="active"><i class="bi bi-house navicon"></i>Inicio </a></li>
+      <li><a href="#about"><i class="bi bi-person navicon"></i> Sobre mi</a></li>
+      <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> CV</a></li>
+      <li><a href="#skills"><i class="bi bi-hdd-stack navicon"></i>Programas</a></li>
+      <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portafolio</a></li>
+      <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contacto</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+  <main class="main">
+
+    <section id="portfolio-details" class="portfolio-details section-details d-flex flex-column">
+      <!-- Page Title -->
+      <div class="page-title dark-background banner-detalles">
+        <div class="container d-lg-flex justify-content-between align-items-center  mb-2">
+          <h1 class="p-3 col-lg-12"><a href="index.html#portfolio"> > > H o m e </a><i> > > L i s t a d e t a r e a s </i></h1>
+        </div>
+      </div><!-- End Page Title -->
+    
+      <!-- Portfolio Details Section -->
+      <div class="container mt-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 d-flex ">
+          <div class="contenedor-imagen col-lg-8">
+            <img class="imagen-portafolio-detalle" src="assets/img/portfolio/port-5.jpg" alt="">
+          </div>
+    
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Informacion del proyecto</h3>
+              <ul>
+                <li><strong>Categoria</strong>:Ejercicio Javascript</li>
+                <li><strong>Cliente</strong>:lorem</li>
+                <li><strong>Fecha</strong>:22 de Julio 2024</li>
+                <li><strong>Enlace a Github</strong>: <a href="#">www.lorem.com</a></li>
+              </ul>
+            </div>
+            <br>
+    
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="300">
+              <h3>Programas usados</h3>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Portfolio Details Section -->
+
+    <section class="d-flex flex-column ">
+      
+      <div class="titulo-codigo ">
+        <h1 class=" mb-lg-2"><i> > > C o d i g o </i></h1>
+      </div>
+
+      <ul class="nav nav-tabs" id="mytabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#HTML">HTML</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#CSS">CSS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#JS">JAVASCRIPT</a>
+        </li>
+      </ul>
+    <div class="caja-codigo ">
+    <div id="HTML" class="mostrar-html activo">  
+    <pre><code class="language-html col-lg-10">
+      &lt;!doctype html&gt;
+      &lt;html lang="en"&gt;
+        &lt;head&gt;
+          &lt;meta charset="utf-8"&gt;
+          &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+          &lt;title&gt;Lista de tareas pendientes&lt;/title&gt;
+          &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"&gt;
+          &lt;link rel="stylesheet" href="assets/css/style.css"&gt;  
+      &lt;/head&gt;
+        &lt;body&gt;
+      
+          &lt;div class="container text-center mt-4"&gt;
+              &lt;h3&gt;LISTA DE TAREAS PENDIENTES&lt;/h3&gt;
+          &lt;/div&gt;
+          
+      
+          &lt;div class="container"&gt;
+              &lt;button type="button" class="agregar btn btn-success" onclick="abrirFormulario()"&gt;Agregar tarea&lt;/button&gt;
+              &lt;div id="formulario"&gt;
+              &lt;form action=""&gt;
+                  &lt;div class="mb-3"&gt;
+                      &lt;label for="exampleFormControlInput1" class="form-label"&gt;Nueva tarea&lt;/label&gt;
+                      &lt;input type="text" class="form-control" id="nuevaTarea" &gt;
+                    &lt;/div&gt;
+                    &lt;div class="mb-3"&gt;
+                      &lt;button type="button" class="btn btn-primary" onclick="agregarTarea()"&gt;Agregar&lt;/button&gt;
+                    &lt;/div&gt;
+              &lt;/form&gt;
+          &lt;/div&gt;
+          &lt;/div&gt;
+      
+      
+          &lt;div class="container mt-5"&gt;
+          &lt;table class="table" id="tabla-tareas"&gt;
+              &lt;thead&gt;
+                &lt;tr&gt;        
+                  &lt;th scope="col"&gt;Tarea&lt;/th&gt;
+                  &lt;th scope="col"&gt;Finalizar&lt;/th&gt;
+                &lt;/tr&gt;
+              &lt;/thead&gt;
+                &lt;tbody id="cuerpo-tabla"&gt;   
+              &lt;/tbody&gt;
+            &lt;/table&gt;
+          &lt;/div&gt;
+      
+            &lt;script src="assets/js/script.js"&gt;&lt;/script&gt;
+          &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"&gt;&lt;/script&gt;
+          &lt;script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"&gt;&lt;/script&gt;
+        &lt;/body&gt;
+      &lt;/html&gt;
+
+    </code>
+  </pre>
+</div>  
+
+<div id="CSS" class="mostrar-css">  
+  <pre><code class="language-css col-lg-10">
+    #formulario{
+      display: none;
+  }
+  </code>
+</pre>
+</div>  
+<div id="JS" class="mostrar-js">  
+  <pre><code class="language-javascript col-lg-10">
+    //array de objetos
+let tareas = [
+  { tarea: "Pintar la fachada de la casa" },
+  { tarea: "Comprar comida para el perro" },
+  { tarea: "Pagar la tarjeta de crédito" },
+];
+
+
+
+let agregar = document.querySelector(".agregar");
+let formulario = document.getElementById("formulario");
+
+//funcion para listar las tareas dentro de una tabla, lo que hace es escribirla
+function tabla(tareas) {
+  let cuerpoTabla = document.getElementById("cuerpo-tabla");
+  cuerpoTabla.innerHTML = "";
+  //tareas es el array y tarea es el objeto
+  for (let i = 0; i < tareas.length; i++) {
+    cuerpoTabla.innerHTML +=`&lt;tr&gt;
+    &lt;td &gt;${tareas[i].tarea}&lt;/td&gt;
+    &lt;td&gt; &lt;button class="btn btn-danger border px-3" onclick="eliminarTarea({})"">Finalizar&lt;/button&gt;
+                            `;
+                            
+  }
+}
+
+//invocar la funcion
+tabla(tareas);
+
+//funcion para agregar una tarea
+function abrirFormulario() {
+  let formulario = document.getElementById("formulario");
+  if (formulario.style.display == "none") {
+    formulario.style.display = "block";
+  } else {
+    formulario.style.display = "none";
+  }
+  //if ternario
+  //formulario.style.display=(formulario.style.display=="none")?"block":"none";
+}
+
+function agregarTarea() {
+  let nuevaTarea = document.getElementById("nuevaTarea");
+  console.log(nuevaTarea);
+  tareas.push({ tarea: nuevaTarea.value });
+  tabla(tareas);
+  nuevaTarea.value = "";
+  abrirFormulario();
+}
+
+
+
+//investigar lo que hace un codigo que se llama splice
+//funcion para eliminar tarea
+//lo que se le ingrese a esta funcion quedara como indice, aca es donde se declara eso
+function eliminarTarea(indice){
+  let confirmar=confirm("¿Estás seguro de que quieres eliminar esta tarea?");
+  //devuleve un valor booleando
+  if(confirmar === true){
+    tareas.splice(indice,1);
+    tabla(tareas);}
+    else{
+      Swal.fire("No se ha eliminado la tarea");
+    }
+    
+}
+
+
+  </code>
+</pre>
+</div>  
+</div>
+</div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  
+
+
+</body>
+
+</html>
